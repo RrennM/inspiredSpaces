@@ -1,0 +1,21 @@
+cantata One-regular
+Lato - light, Regular, Semi Bold
+trebuche - medium - 
+font-family: 'Lato', sans-serif;
+font-family: 'Cantata One', serif;
+need to font face trebuc.tff
+
+=======================NAV============================================
+-full width @ 1202px
+-Nav button < 1202px
+
+@ 980px (so < 981px)
+-green stripe disappears
+-stays like this all the way down to 0 (or whatever) width 
+
+
+
+
+======================HERO============================================
+turns mobile @ 980px
+image resizes @ 1189px (so <= 1190)

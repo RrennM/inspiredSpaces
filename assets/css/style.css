@@ -1,0 +1,398 @@
+/* === BASE STYLES
+=============================================================*/
+@font-face {
+	font-family: Trebuc;
+	src: url('../fonts/trebuc.ttf') format('truetype');
+}
+
+body {
+	background-color: #fff;
+	font-size: 16px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: .5px solid #81be41;
+  margin: .7em 0 .5em;
+  padding: 0;
+}
+
+
+.bttn {
+	background-color: #666;
+	border: 1px solid #999;
+	border-radius: none;
+	font-size: .93rem;
+	padding: 3px;
+	text-transform: uppercase;
+	width: 90%;
+}
+
+.bttn a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+/*==== HEADER
+=========================================================*/
+header {
+	background-color: #fff;
+	text-transform: uppercase;
+}
+
+header li {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+}
+
+#green-stripe {
+	height: 37px;
+	background-color: #81be41;
+	text-align: center;
+	font-weight: 700;
+}
+
+#green-stripe ul {
+	width: 100%;
+	margin-bottom: 0;
+	padding: 0
+}
+
+#green-stripe li {
+	line-height: 35px;
+}
+
+#green-stripe li a {
+	color: #fff;
+}
+
+#green-stripe li a:hover { /* need to include fade darker here */
+	color: #eee;
+	text-decoration: none;
+}
+
+#green-stripe li a i {
+	margin-left: 10px;
+}
+
+nav	{
+	height: 86px;
+	padding: 0 48px !important;
+}
+
+nav img {
+	max-height: 61%;
+	margin-top: 17px;
+}
+
+nav #nav-links {
+	display: inline-block;
+	float: right;
+}
+
+nav #nav-links ul li {
+	line-height: 86px;
+	display: inline-block;
+	margin-left: 22px;
+}
+
+nav #nav-links ul li a {
+	color: #58595b;
+}
+
+nav #nav-links ul li a:hover { /* need to include fade lighter here */
+	color: #999;
+	text-decoration: none;
+}
+
+
+
+
+
+/*==== HERO
+=========================================================*/
+#hero {
+	background: url('../img/Modern-Kitchen.jpg') no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%
+	resize: both;
+	min-height: 100vh;
+	color: #58595b;
+	padding: 23px 0 18px;
+	height: auto;
+	}
+
+#hero .col-thirty {
+	width: 30%;
+	margin-left: 60%;
+}
+
+#hero .col-thirty .container{
+	width: 100%;
+	background-color: #F9F8F7;
+}
+
+#hero-banner {
+	width: 100%;
+	margin: 0;
+	padding: 6px 6px 36px; 
+	height: auto;
+}
+
+#hero-banner img {
+	width: 100%;
+	padding: 28px 0 0; 
+}
+
+#hero-banner h4 {
+	font-family: 'Times New Roman', serif;
+	font-size: 1.3rem;
+	line-height: 1;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	color: #58595b;
+}
+
+#hero-banner p {
+	width: 100%;
+	font-size: 1rem;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	line-height: 1.6;
+}
+
+
+
+
+/*==== STAGING
+=========================================================*/
+#staging {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+#staging .title {
+	color: #58595b;
+}
+
+#staging .title h1 {
+	font-family: 'Times New Roman', serif;
+	font-size: 2.7rem;
+	text-transform: uppercase;
+	line-height: 45px;
+	margin-bottom: 0;
+}
+
+#staging .title hr {
+	margin: .3rem auto;
+	width: 38%;
+}
+
+#staging .title p {
+	color: #58595b;
+	font-family: 'Lato', 'Trebuc', sans-serif;
+	font-size: 1rem;
+	line-height: 30px;
+	font-weight: 300;
+	margin-bottom: 56px;
+}
+
+#staging .banners {
+	color: #fff;
+}
+
+#staging .banners #staging-first { /* Hide this until Mobile width */
+	display: none;
+}
+
+#staging .banners #staging-second p {
+	margin-bottom: 20px;
+}
+
+#staging .banners #staging-fourth p { 
+	margin-bottom: 42px;
+}
+
+#staging .banners .col-sm-4 {
+	background-color: #58595b;
+	width: 30%;
+	height: auto;
+	margin: 0 1.5%;
+	padding: 0;
+}
+
+#staging .banners .col-sm-4#staging-third { /* Hide this for Mobile width */
+	background-color: #3b3b3d;
+	margin-top: -32px;
+}
+
+#staging .banners .col-sm-4 img {
+	background-color: #58595b;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#staging .banners .col-sm-4 .container {
+	width: auto;
+	height: auto;
+	margin: 6px;
+	border: 1px solid #999;
+}
+
+
+#staging .banners .col-sm-4 .container .row {
+	height: auto;
+	padding: 0 22px 24px;
+}
+
+#staging .banners .col-sm-4 .container h4 {
+	text-transform: uppercase;
+	font-family: 'Times New Roman', serif;
+	font-size: 1.5rem;
+	margin-bottom: 6px;
+}
+
+#staging .banners .col-sm-4 .container p {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.6;
+	font-size: .93rem;
+}
+
+#staging .banners .col-sm-4 .container p.lead {
+	text-transform: capitalize;
+	margin-bottom: 10px !important;
+}
+
+#staging .banners .col-sm-4 .bttn {
+	background-color: rgba(0,0,0,0);
+}
+
+
+
+
+/*==== REVIEWS
+=========================================================*/
+#reviews {
+	background: url('../img/livRoomDarkerWhite.jpg') no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: #58595b;
+	height: 400px;
+	resize: both;
+	width: 100%;
+}
+
+#reviews > .container {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#myCarousel {
+	height: 400px;
+	padding: 0 10px;
+}
+
+#reviews .carousel-inner {
+	width: 85%;
+	margin: 0 auto;
+	height: auto;
+}
+
+#reviews #myCarousel .item {
+	margin-top: 10%;
+	height: auto;
+}
+
+#myCarousel .caro-control img {
+	width: 30px;
+}
+
+#myCarousel .left.caro-control {
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}
+
+#myCarousel .right.caro-control {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 2;
+}
+
+#myCarousel .left.caro-control img {
+	margin-left: 20px;
+	float: left;
+}
+
+#myCarousel .right.caro-control img {
+	margin-right: 20px;
+	float: right;
+}
+
+#reviews .carousel-img {
+	max-width: 44%;
+	height: auto;
+	display: inline-block;
+}
+
+#reviews img {
+	max-width: 100%;
+	height: auto;
+}
+
+#reviews .carousel-info {
+	max-width: 46%;
+	height: auto;
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+
+#reviews .carousel-info .container {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	padding: 0;
+}
+
+#reviews .carousel-info .container h2 {
+	text-transform: uppercase;
+	font-family: 'Times New Roman', serif;
+	font-size: 2.2rem;
+	margin-bottom: 6px;
+	text-align: center;
+}
+
+#reviews .carousel-info blockquote {
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	border: none;
+	padding: 0;
+}
+
+#reviews .carousel-info cite {
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	display: block;
+	font-style: normal;
+}
