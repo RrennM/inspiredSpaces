@@ -364,6 +364,7 @@ nav #nav-links ul li a:hover { /* need to include fade lighter here */
 	display: inline-block;
 	padding: 0 10px;
 	vertical-align: middle;
+	margin-left: 3%;
 }
 
 #reviews .carousel-info .container {
@@ -381,12 +382,18 @@ nav #nav-links ul li a:hover { /* need to include fade lighter here */
 	text-align: center;
 }
 
+#reviews hr {
+	margin: 1rem auto;
+	width: 60%;
+}
+
 #reviews .carousel-info blockquote {
 	font-size: 1rem;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
 	border: none;
 	padding: 0;
+	line-height: 1.8;
 }
 
 #reviews .carousel-info cite {
@@ -395,4 +402,10 @@ nav #nav-links ul li a:hover { /* need to include fade lighter here */
 	font-family: 'Lato', sans-serif;
 	display: block;
 	font-style: normal;
+	margin-top: 10px;
+}
+
+#reviews .carousel-indicators {
+	position: absolute;
+	bottom: 0;
 }
